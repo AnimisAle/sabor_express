@@ -15,6 +15,11 @@ print('4 - Sair\n')
 opcao_escolhida = input('Escolha uma opção: ') 
 print(f'Você escolheu a opção: {opcao_escolhida}.')
 
+print(type(opcao_escolhida))
+print(type(1))
+print(type('1'))
+
+
 if opcao_escolhida == 1: 
     print('Cadastrar Restaurante')
 elif opcao_escolhida == 2:
